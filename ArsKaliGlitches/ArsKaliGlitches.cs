@@ -9,11 +9,13 @@ public sealed class ArsKaliGlitchesExtension : IExtension
 	{
 		PintaCore.Effects.RegisterEffect (new ChromaticAberrationEffect (PintaCore.Services));
 		PintaCore.Effects.RegisterEffect (new ColoredArtifactsEffect (PintaCore.Services));
+		PintaCore.Effects.RegisterEffect (new RowSliceEffect (PintaCore.Services));
 	}
 
 	public void Uninitialize ()
 	{
 		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (ChromaticAberrationEffect));
 		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (ColoredArtifactsEffect));
+		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (RowSliceEffect));
 	}
 }

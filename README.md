@@ -8,5 +8,11 @@ Documentation is scarce (and this is my first shot at doing anything in C#) but 
 #### What effects are included?
 ##### Stylize > Chromatic Aberration
 Shifts the red, green, and blue channels of an image to specified points.
+##### Stylize > CRT
+Adds scanlines and filters the image to look like CRT monitor output.
 ##### Render > Scanlines
 Renders scanlines without the CRT filter.
+##### Render > Colored Artifacts
+Adds randomly colored and sized rectangles, to be used with other effects and blending modes.
+##### Distort > Row Slice
+Chops and shifts segments of the image along the horizontal axis.
