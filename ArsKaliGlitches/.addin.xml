@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Addin id="ArsKaliGlitches" version="0.0.1" category="Effects">
+	<!-- This is the information shown in the add-in manager, with translations -->
+	<Header>
+		<Name>Ars Kali: Glitches</Name>
+		<Description>Pinta addins for the truly insane. This pack focuses on glitch effects.</Description>
+		<Author>Kali Rosenkreuz</Author>
+		<Url></Url>
+	</Header>
+
+	<!-- Indicate the required Pinta version for the add-in. -->
+	<Dependencies>
+		<Addin id="Pinta" version="3.0" />
+	</Dependencies>
+</Addin>

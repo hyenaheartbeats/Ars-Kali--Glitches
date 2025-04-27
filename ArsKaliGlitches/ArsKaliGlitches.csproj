@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <Version>0.0.1</Version>
+    <Authors>Kali Rosenkreuz</Authors>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Addins" Version="1.4.2-alpha.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pinta\Pinta.Core\Pinta.Core.csproj" />
+    <ProjectReference Include="..\Pinta\Pinta.Effects\Pinta.Effects.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include=".addin.xml" />
+  </ItemGroup>
+</Project>
