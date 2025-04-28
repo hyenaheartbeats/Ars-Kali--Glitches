@@ -12,6 +12,7 @@ public sealed class ArsKaliGlitchesExtension : IExtension
 		PintaCore.Effects.RegisterEffect (new RowSliceEffect (PintaCore.Services));
 		PintaCore.Effects.RegisterEffect (new AdjustmentNoiseEffect (PintaCore.Services));
 		PintaCore.Effects.RegisterEffect (new ScanlinesEffect (PintaCore.Services));
+		PintaCore.Effects.RegisterEffect (new PixelDragEffect (PintaCore.Services));
 	}
 
 	public void Uninitialize ()
@@ -21,5 +22,6 @@ public sealed class ArsKaliGlitchesExtension : IExtension
 		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (RowSliceEffect));
 		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (AdjustmentNoiseEffect));
 		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (ScanlinesEffect));
+		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (PixelDragEffect));
 	}
 }
