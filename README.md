@@ -11,6 +11,9 @@ Me! I'm mostly porting effects and plugins that have kept me tethered to certain
 
 Documentation is scarce (and this is my first shot at doing anything in C#) but as these circumstances improve hopefully the quantity and quality of the effects will as well.
 
+#### Installation
+The add-in can be installed through the add-in repository in Pinta. (Add-ins > Add-in Manager)
+
 #### What effects are included?
 ##### Stylize > Chromatic Aberration
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitcheschromaticaberration.png">
