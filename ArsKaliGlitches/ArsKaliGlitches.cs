@@ -17,11 +17,11 @@ public sealed class ArsKaliGlitchesExtension : IExtension
 
 	public void Uninitialize ()
 	{
-		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (ChromaticAberrationEffect));
-		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (ColoredArtifactsEffect));
-		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (RowSliceEffect));
-		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (AdjustmentNoiseEffect));
-		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (ScanlinesEffect));
-		PintaCore.Effects.UnregisterInstanceOfEffect (typeof (PixelDragEffect));
+		PintaCore.Effects.UnregisterInstanceOfEffect<ChromaticAberrationEffect> ();
+		PintaCore.Effects.UnregisterInstanceOfEffect<ColoredArtifactsEffect> ();
+		PintaCore.Effects.UnregisterInstanceOfEffect<RowSliceEffect> ();
+		PintaCore.Effects.UnregisterInstanceOfEffect<AdjustmentNoiseEffect> ();
+		PintaCore.Effects.UnregisterInstanceOfEffect<ScanlinesEffect> ();
+		PintaCore.Effects.UnregisterInstanceOfEffect<PixelDragEffect> ();
 	}
 }
