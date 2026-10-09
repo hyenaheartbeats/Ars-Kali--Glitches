@@ -14,27 +14,33 @@ Documentation is scarce (and this is my first shot at doing anything in C#) but 
 #### Installation
 The add-in can be installed through the add-in repository in Pinta. (Add-ins > Add-in Manager)
 
+All effects can be found under their own category.
+
 #### What effects are included?
-##### Stylize > Chromatic Aberration
+##### Chromatic Aberration
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitcheschromaticaberration.png">
 Shifts the red, green, and blue channels of an image to specified points.
 
-##### Render > Scanlines
+##### Scanlines
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitchesscanlines.png">
 Renders out scanlines and interlace lines.
 
-##### Render > Colored Artifacts
+##### Colored Artifacts
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitchesartifacts.png">
 Adds randomly colored and sized rectangles, to be used with other effects and blending modes.
 
-##### Distort > Pixel Drag
+##### Pixel Drag
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitchesdrag.png">
 Selects random pixels and drags them with configurable axis and distance.
 
-##### Distort > Row Slice
+##### Row Slice
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitchesrowslice.png">
 Chops and shifts segments of the image along the horizontal axis.
 
-##### Noise > Adjustment Noise
+##### Adjustment Noise
 <img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitchesnoise.png">
 Randomly adjusts the color values of each pixel (plus or minus up to 16). This produces a grainy effect.
+
+##### Psychocolor
+<img width=65% height=65% src="https://hyena.icu/demoimages/arsglitches/glitchespsychocolor.png">
+A half-recreation half-twist on John Robbins/Red ochre's <a href="https://forums.paint.net/topic/22126-psychocolour-in-red-ochre-plugin-pack/">Psychocolor</a> plugin for Paint.NET. It's a little bit slower and not quite 1:1 but I had a lot of fun making it.

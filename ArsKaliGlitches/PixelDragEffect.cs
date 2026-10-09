@@ -26,7 +26,7 @@ public sealed class PixelDragEffect : BaseEffect
 		=> AddinManager.CurrentLocalizer.GetString ("Pixel Drag");
 
 	public override string EffectMenuCategory
-		=> AddinManager.CurrentLocalizer.GetString ("Distort");
+		=> AddinManager.CurrentLocalizer.GetString ("Ars Kali: Glitches");
 
 	public override bool IsConfigurable => true;
 
@@ -102,9 +102,8 @@ public sealed class PixelDragEffect : BaseEffect
 		}
 		else
 		{
-			// done by twi
-			// because otherwise the whole thing slows to a crawl
-			// oops
+			// update 2026: i have no idea why it's so much slower when it's not batched and neither does she
+			// don't really feel like looking too much into it when it works though /shrug
 			RenderY(source, data, destinationData, iterations, minDrag, maxDrag, rand);
 		}
 		

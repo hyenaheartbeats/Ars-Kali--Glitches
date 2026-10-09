@@ -25,7 +25,7 @@ public sealed class ColoredArtifactsEffect : BaseEffect
 		=> AddinManager.CurrentLocalizer.GetString ("Colored Artifacts");
 
 	public override string EffectMenuCategory
-		=> AddinManager.CurrentLocalizer.GetString ("Render");
+		=> AddinManager.CurrentLocalizer.GetString ("Ars Kali: Glitches");
 
 	public override bool IsConfigurable => true;
 

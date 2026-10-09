@@ -31,7 +31,7 @@ public sealed class ChromaticAberrationEffect : BaseEffect
 		=> AddinManager.CurrentLocalizer.GetString ("Chromatic Aberration");
 
 	public override string EffectMenuCategory
-		=> AddinManager.CurrentLocalizer.GetString ("Stylize");
+		=> AddinManager.CurrentLocalizer.GetString ("Ars Kali: Glitches");
 
 	public override bool IsConfigurable => true;
 

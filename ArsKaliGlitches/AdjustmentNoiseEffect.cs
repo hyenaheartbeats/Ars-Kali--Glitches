@@ -23,7 +23,7 @@ public sealed class AdjustmentNoiseEffect : BaseEffect
 		=> AddinManager.CurrentLocalizer.GetString ("Adjustment Noise");
 
 	public override string EffectMenuCategory
-		=> AddinManager.CurrentLocalizer.GetString ("Noise");
+		=> AddinManager.CurrentLocalizer.GetString ("Ars Kali: Glitches");
 
 	public override bool IsConfigurable => true;
 

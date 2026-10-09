@@ -25,7 +25,7 @@ public sealed class RowSliceEffect : BaseEffect
 		=> AddinManager.CurrentLocalizer.GetString ("Row Slice");
 
 	public override string EffectMenuCategory
-		=> AddinManager.CurrentLocalizer.GetString ("Distort");
+		=> AddinManager.CurrentLocalizer.GetString ("Ars Kali: Glitches");
 
 	public override bool IsConfigurable => true;
 

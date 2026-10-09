@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArsKaliGlitches", "ArsKaliGlitches\ArsKaliGlitches.csproj", "{373E128D-4FA4-4893-928B-1FA246387884}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pinta", "Pinta", "{6F412197-0070-43E1-A817-E045E5317AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.Core", "Pinta\Pinta.Core\Pinta.Core.csproj", "{42F1514B-DB93-4CC9-9B23-3FC69BD9B417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.Effects", "Pinta\Pinta.Effects\Pinta.Effects.csproj", "{139B76EF-F5AE-4F34-8343-2E7F79A0EDA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{373E128D-4FA4-4893-928B-1FA246387884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373E128D-4FA4-4893-928B-1FA246387884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373E128D-4FA4-4893-928B-1FA246387884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F1514B-DB93-4CC9-9B23-3FC69BD9B417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F1514B-DB93-4CC9-9B23-3FC69BD9B417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F1514B-DB93-4CC9-9B23-3FC69BD9B417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F1514B-DB93-4CC9-9B23-3FC69BD9B417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139B76EF-F5AE-4F34-8343-2E7F79A0EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139B76EF-F5AE-4F34-8343-2E7F79A0EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139B76EF-F5AE-4F34-8343-2E7F79A0EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139B76EF-F5AE-4F34-8343-2E7F79A0EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42F1514B-DB93-4CC9-9B23-3FC69BD9B417} = {6F412197-0070-43E1-A817-E045E5317AB8}
+		{139B76EF-F5AE-4F34-8343-2E7F79A0EDA7} = {6F412197-0070-43E1-A817-E045E5317AB8}
 	EndGlobalSection
 EndGlobal
